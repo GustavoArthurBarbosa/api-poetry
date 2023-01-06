@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "2-api-poetry"
+version = "0.1.0"
+description = "My first API"
+authors = ["Gustavo Arthur Barbosa Ulrich <gustavoarthurbarbosa@gmail.com>"]
+readme = "README.md"
+packages = [{include = "2_api_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.88.0"
+uvicorn = "^0.20.0"
+safety = "^2.3.5"
+mkdocs-material = "^9.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
